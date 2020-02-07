@@ -18,3 +18,8 @@ Complex complex_conj(Complex c);
 
 double magnitude(Complex c);
 double phase(Complex c);
+
+void fn_hdlr1(Complex (*fn1) (Complex, Complex), Complex c1, Complex c2); 
+void fn_hdlr2(double (*fn2) (Complex), Complex c1);
+
+
